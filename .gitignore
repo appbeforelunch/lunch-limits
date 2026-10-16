@@ -1,0 +1,6 @@
+session-*.jsonl
+session-*.start
+session-*.end
+session-*.err
+.DS_Store
+precheck.txt

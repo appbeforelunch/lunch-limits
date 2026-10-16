@@ -1,0 +1,22 @@
+{
+  "hook_event_name": "Status",
+  "session_id": "LEAK-SESSION-ID",
+  "transcript_path": "/LEAK/transcript.jsonl",
+  "cwd": "/LEAK/cwd",
+  "model": {"id": "LEAK-model-id", "display_name": "LEAK-Model"},
+  "workspace": {"current_dir": "/LEAK/current", "project_dir": "/LEAK/project"},
+  "version": "LEAK-9.9.9",
+  "output_style": {"name": "LEAK-style"},
+  "cost": {
+    "total_cost_usd": 12.34,
+    "total_duration_ms": 123456,
+    "total_api_duration_ms": 65432,
+    "total_lines_added": 777,
+    "total_lines_removed": 888
+  },
+  "exceeds_200k_tokens": true,
+  "rate_limits": {
+    "five_hour": {"used_percentage": 23, "resets_at": 1760024400},
+    "seven_day": {"used_percentage": 41, "resets_at": 1760324400}
+  }
+}
